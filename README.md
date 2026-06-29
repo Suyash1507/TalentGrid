@@ -1,4 +1,4 @@
-# 🎓 JobSphere
+# 🎓 Talent Grid
 
 ## 📝 Project Overview
 
