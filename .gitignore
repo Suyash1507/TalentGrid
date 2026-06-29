@@ -1,0 +1,51 @@
+# ---------------------------------------------
+# Root .gitignore for JobSphere (Spring Boot + React)
+# ---------------------------------------------
+
+# ===== Java / Maven (backend) =====
+backend/target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Maven wrapper (keep wrapper scripts, ignore downloaded binary)
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Node / React (frontend) =====
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===== Environment & secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.tmp
+*.bak
